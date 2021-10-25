@@ -5,7 +5,7 @@ import Pages from "./pages";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "https://odyssey-cats.herokuapp.com/",
+  uri: "http://localhost:4000/", // "https://odyssey-cats.herokuapp.com/",
   cache: new InMemoryCache(),
 });
 
